@@ -1,0 +1,26 @@
+{
+  "name": "fastn-dom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watchExample": "watchify -g uglifyify --noparse clone ./example/index.js -o ./example/index.browser.js",
+    "test": "c8 node test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "c8": "^7.1.2",
+    "crel": "^4.2.1",
+    "dom-lightning": "^1.0.2",
+    "tape": "^5.0.0",
+    "uglifyify": "^5.0.2",
+    "watchify": "^3.11.1"
+  },
+  "dependencies": {
+    "classist": "^1.1.1",
+    "fancy-props": "^1.0.0",
+    "setify": "^1.0.4"
+  }
+}
